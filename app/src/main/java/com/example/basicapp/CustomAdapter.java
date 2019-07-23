@@ -9,9 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-class CustomAdapter extends ArrayAdapter<String> {
+class CustomAdapter extends ArrayAdapter<TableOfContent.RowItem> {
 
-    CustomAdapter(Context context, String[] subjects){
+    CustomAdapter(Context context, TableOfContent.RowItem[] subjects){
         super(context, R.layout.custom_row, subjects);
     }
 
@@ -20,12 +20,12 @@ class CustomAdapter extends ArrayAdapter<String> {
         LayoutInflater TableInflator = LayoutInflater.from(getContext());
         View customView = TableInflator.inflate(R.layout.custom_row, parent, false);
 
-        String singleSubjectItem = getItem(position);
         TextView TextField = (TextView) customView.findViewById(R.id.TextField);
         ImageView TableImage = (ImageView) customView.findViewById(R.id.TableImageButton);
 
-        TextField.setText(singleSubjectItem);
-        TableImage.setImageResource(R.drawable.maths);
+        TextField.setText(getItem(position).text);
+        TableImage.setImageResource(getItem(position).imageressource);
+        return customView;
 
         // if(TextField.getText() == "maths"){
         //     TextField.setText(singleSubjectItem);
@@ -35,7 +35,6 @@ class CustomAdapter extends ArrayAdapter<String> {
         //       TextField.setText(singleSubjectItem);
         //        TableImage.setImageResource(R.drawable.informatik);
         //  }
-        return customView;
     }
 
 

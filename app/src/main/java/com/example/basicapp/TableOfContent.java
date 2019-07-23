@@ -17,7 +17,7 @@ public class TableOfContent extends AppCompatActivity {
         setContentView(R.layout.activity_table_of_content);
 
         String[] subjects = {"1. Mathematik", "2. Informatik", "3. Biologie", "4. Chemie", "5. Physik", "6. Technik"}; // these are our list items
-        ListAdapter TableAdapter=new CustomAdapter(this, subjects);
+        ListAdapter TableAdapter=new CustomAdapter(this, createData());
         ListView TableListView= (ListView) findViewById(R.id.TableListView);
         TableListView.setAdapter(TableAdapter);
         //adapter is responsible for the conversion from java code to list items
@@ -45,6 +45,29 @@ public class TableOfContent extends AppCompatActivity {
                         }
 
                 });
-    }
 
     }
+     class RowItem{
+        int imageressource;
+        String text;
+        RowItem(int res, String text){
+            this.imageressource = res;
+            this.text = text;
+        }
+
+    }
+    RowItem[] createData(){
+
+        RowItem item[] = new RowItem[6];
+        item[0] = new RowItem(R.drawable.maths,"1. Mathematik");
+        item[1] = new RowItem(R.drawable.biology,"2. Bio");
+       // item[2] = new RowItem(1,"test");
+      //  item[3] = new RowItem(1,"test");
+      //  item[4] = new RowItem(1,"test");
+     //   item[5] = new RowItem(1,"test");
+
+        return item;
+
+    }
+
+}
