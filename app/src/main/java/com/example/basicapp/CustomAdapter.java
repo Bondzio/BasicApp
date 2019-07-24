@@ -8,11 +8,17 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import androidx.annotation.Nullable;
+import com.example.basicapp.TableOfContent.RowItem;
 
 class CustomAdapter extends ArrayAdapter<TableOfContent.RowItem> {
 
+    RowItem[] subjects1;
+
     CustomAdapter(Context context, TableOfContent.RowItem[] subjects){
         super(context, R.layout.custom_row, subjects);
+
+         this.subjects1 = subjects;
     }
 
     @Override
@@ -37,6 +43,16 @@ class CustomAdapter extends ArrayAdapter<TableOfContent.RowItem> {
         //  }
     }
 
+    @Override public int getCount() {
+        return subjects1.length;
+    }
 
+    @Override public boolean areAllItemsEnabled() {
+        return true;
+    }
+
+    @Override public boolean isEnabled(int position) {
+        return true;
+    }
 }
 
