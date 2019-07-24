@@ -9,21 +9,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private ImageButton b;                                  //the starting picture is a button
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+	private ImageButton b;                                  //the starting picture is a button
 
-        b=(ImageButton)findViewById(R.id.ImageButton);
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent i = new Intent(HomeActivity.this, TableOfContent.class);
-                startActivity(i);
-                //after clicking on the starting picture, a new activity with the TableOfContent will open
+	@Override protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_home);
 
-            }
-        });
-    }
+		b = (ImageButton) findViewById(R.id.ImageButton);
+		b.setOnClickListener(new View.OnClickListener() {
+			@Override public void onClick(View view) {
+				Intent i = new Intent(HomeActivity.this, TableOfContent.class);
+				startActivity(i);
+				//after clicking on the starting picture, a new activity with the TableOfContent will open
+
+			}
+		});
+	}
 }
