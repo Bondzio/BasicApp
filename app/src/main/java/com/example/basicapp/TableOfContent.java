@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageButton;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
@@ -63,13 +62,13 @@ public class TableOfContent extends AppCompatActivity {
 
 	RowItem[] createData() {
 
-		RowItem item[] = new RowItem[2];
+		RowItem item[] = new RowItem[6];
 		item[0] = new RowItem(R.drawable.maths, "1. Mathematik");
-		item[1] = new RowItem(R.drawable.biology, "2. Bio");
-		// item[2] = new RowItem(1,"test");
-		//  item[3] = new RowItem(1,"test");
-		//  item[4] = new RowItem(1,"test");
-		//   item[5] = new RowItem(1,"test");
+		item[1] = new RowItem(R.drawable.informatik, "2. Informatik");
+		item[2] = new RowItem(R.drawable.biology,"3. Biologie");
+		item[3] = new RowItem(R.drawable.biology,"4. Chemie");
+		item[4] = new RowItem(R.drawable.physics,"5. Physik");
+		item[5] = new RowItem(R.drawable.biology,"6. Technik");
 
 		return item;
 	}
