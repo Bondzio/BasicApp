@@ -1,4 +1,4 @@
-package com.example.basicapp;
+/*package com.example.basicapp;
 
 
 import android.content.Context;
@@ -56,3 +56,4 @@ class CustomAdapter extends ArrayAdapter<TableOfContent.RowItem> {
     }
 }
 
+*/
