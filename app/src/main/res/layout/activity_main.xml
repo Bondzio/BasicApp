@@ -7,11 +7,12 @@
     android:background="#aee5e9"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/TextView"
-        android:gravity="center"
         android:layout_width="264dp"
         android:layout_height="127dp"
+        android:gravity="center"
         android:text="Seite wird geladen"
         android:textColor="#909090"
         android:textSize="40sp"
