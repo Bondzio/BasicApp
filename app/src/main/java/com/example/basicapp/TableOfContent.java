@@ -103,8 +103,9 @@ public class TableOfContent extends AppCompatActivity {
 	private void initImageBitmaps(){
 		Log.d(TAG, "initImageBitmaps: preparing bitmaps.");
 
-		mImageUrls.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
 		mNames.add("1. Mathematik");
+		mImageUrls.add("https://epsilonbildung.de/wp-content/uploads/2019/02/Fotolia_76300304_L.jpg");
+
 
 		mImageUrls.add("https://i.redd.it/tpsnoz5bzo501.jpg");
 		mNames.add("2. Informatik");
