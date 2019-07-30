@@ -18,7 +18,7 @@ public class ListDisplay extends Activity {
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_gallery);
 
 		// This is how one can pass data between activities
 		//TODO You can read more about Serializable

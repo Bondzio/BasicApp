@@ -31,9 +31,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 	private Context mContext;
 
 	public RecyclerViewAdapter(Context context, ArrayList<String> imageNames, ArrayList<String> images) {
+		mContext = context;
 		mImageNames = imageNames;
 		mImages = images;
-		mContext = context;
 	}
 
 	@Override public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

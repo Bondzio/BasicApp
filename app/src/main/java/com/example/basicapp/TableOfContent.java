@@ -97,6 +97,9 @@ public class TableOfContent extends AppCompatActivity {
 		setContentView(R.layout.activity_table_of_content);
 		Log.d(TAG, "onCreate: started.");
 
+		mNames.clear();
+		mImageUrls.clear();
+
 		initImageBitmaps();
 	}
 
