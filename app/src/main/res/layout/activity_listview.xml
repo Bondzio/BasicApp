@@ -5,8 +5,9 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="10dip"
-    android:textSize="16dip"
-    android:textStyle="bold"></TextView>
+    android:textSize="20dip"
+    android:textColor="#000"
+    android:textStyle="normal"></TextView>
 
 
 

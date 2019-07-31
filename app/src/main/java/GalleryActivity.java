@@ -27,22 +27,10 @@ public class GalleryActivity extends AppCompatActivity {
             String imageUrl = getIntent().getStringExtra("image_url");
             String imageName = getIntent().getStringExtra("image_name");
 
-           // setImage(imageUrl, imageName);
         }
     }
 
-  /*  private void setImage(String imageUrl, String imageName){
-        Log.d(TAG, "setImage: setting te image and name to widgets.");
 
-        TextView name = findViewById(R.id.);
-        name.setText(imageName);
-
-        ImageView image = findViewById(R.id.image);
-        Glide.with(this)
-                .asBitmap()
-                .load(imageUrl)
-                .into(image);
-    } */
 
 }
 
