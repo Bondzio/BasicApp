@@ -9,13 +9,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.Nullable;
-import com.example.basicapp.TableOfContent.RowItem;
+import com.example.basicapp.ui.SubjectListActivity.RowItem;
 
-class CustomAdapter extends ArrayAdapter<TableOfContent.RowItem> {
+class CustomAdapter extends ArrayAdapter<SubjectListActivity.RowItem> {
 
     RowItem[] subjects1;
 
-    CustomAdapter(Context context, TableOfContent.RowItem[] subjects){
+    CustomAdapter(Context context, SubjectListActivity.RowItem[] subjects){
         super(context, R.layout.custom_row, subjects);
 
          this.subjects1 = subjects;
