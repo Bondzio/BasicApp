@@ -33,15 +33,15 @@ public final class AppDatabase {
 
 			List<Subject> list = new ArrayList<>();
 
-			list.add(new Subject("1. Mathematik",
-				"https://epsilonbildung" + ".de/wp-content/uploads/2019/02/Fotolia_76300304_L.jpg"));
-			list.add(new Subject("2. Informatik", "https://i.redd.it/tpsnoz5bzo501.jpg"));
-			list.add(new Subject("3. Biologie", "https://i.redd.it/qn7f9oqu7o501.jpg"));
-			list.add(new Subject("4. Chemie", "https://i.redd.it/j6myfqglup501.jpg"));
-			list.add(new Subject("5. Physik", "https://i.redd.it/0h2gm1ix6p501.jpg"));
-			list.add(new Subject("6. Technik", "https://i.redd.it/k98uzl68eh501.jpg"));
+			list.add(new Subject("1. Mathematik", "https://cdn4.iconfinder.com/data/icons/education-and-school-10/800/compass-512.png"));
+			list.add(new Subject("2. Informatik", "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Laptop-512.png"));
+			list.add(new Subject("3. Biologie", "https://cdn4.iconfinder.com/data/icons/education-free/512/education-school-learn-study-15-512.png"));
+			list.add(new Subject("4. Chemie", "https://cdn4.iconfinder.com/data/icons/medical-227/512/584_Flask_lab_research_medical-512.png"));
+			list.add(new Subject("5. Physik", "https://cdn1.iconfinder.com/data/icons/science-technology-outline-24-px/24/Horseshoe_magnet_magnet_magnetic_field_magnetism_physics-512.png"));
+			list.add(new Subject("6. Technik", "https://cdn1.iconfinder.com/data/icons/web-basic-2/512/721_gear__setting_engine_-512.png"));
 
 			return list;
 		}
+
 	}
 }

@@ -12,6 +12,8 @@ import com.example.basicapp.R;
 import com.example.basicapp.data.Subjects;
 import com.example.basicapp.ui.ChapterListActivity;
 import com.example.basicapp.ui.WebViewActivity;
+import com.example.basicapp.ui.WordListActivity;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.util.List;
 
@@ -40,8 +42,8 @@ public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.
 
 		holder.parentLayout.setOnClickListener(new View.OnClickListener() {
 			@Override public void onClick(View view) {
-				Intent intent = new Intent(mContext, WebViewActivity.class);
-				intent.putExtra("url", "https://www.google.com");
+				Intent intent = new Intent(mContext, WordListActivity.class);
+				//intent.putExtra("url", "https://www.google.com");
 				mContext.startActivity(intent);
 			}
 		});

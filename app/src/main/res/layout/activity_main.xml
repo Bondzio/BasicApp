@@ -10,13 +10,12 @@
 
     <TextView
         android:id="@+id/TextView"
-        android:layout_width="264dp"
-        android:layout_height="127dp"
+        android:layout_width="301dp"
+        android:layout_height="233dp"
         android:gravity="center"
-        android:text="Seite wird geladen"
+        android:text="Es ist vollkommen egal, wie langsam du voran kommst. Du überholst immer noch jeden, der gar nichts tut."
         android:textColor="#909090"
-        android:textSize="40sp"
-
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintLeft_toLeftOf="parent"
