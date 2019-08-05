@@ -1,39 +1,29 @@
-package codingwithmitch.com.recyclerview;
+package com.example.basicapp.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.bumptech.glide.Glide;
-import com.example.basicapp.ListDisplay;
 import com.example.basicapp.R;
-import com.example.basicapp.Subjects;
-
-import java.util.ArrayList;
-
+import com.example.basicapp.data.Subjects;
+import com.example.basicapp.ui.ChapterListActivity;
+import com.example.basicapp.ui.WebViewActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
+import java.util.List;
 
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
+public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.ViewHolder> {
 
-	private static final String TAG = "RecyclerViewAdapter";
-
-	private ArrayList<String> mImageNames = new ArrayList<>();
-	private ArrayList<String> mImages = new ArrayList<>();
 	private Context mContext;
+	List<String> subjectList;
 
-	public RecyclerViewAdapter(Context context, ArrayList<String> imageNames, ArrayList<String> images) {
+	public ChapterListAdapter(Context context, List<String> subjectList) {
 		mContext = context;
-		mImageNames = imageNames;
-		mImages = images;
+		this.subjectList = subjectList;
 	}
 
 	@Override public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -43,20 +33,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 	}
 
 	@Override public void onBindViewHolder(ViewHolder holder, final int position) {
-		Log.d(TAG, "onBindViewHolder: called.");
 
-		Glide.with(mContext).asBitmap().load(mImages.get(position)).into(holder.image);
-
-		holder.imageName.setText(mImageNames.get(position));
+		String subject = subjectList.get(position);
+		holder.imageName.setText(subject);
+		holder.image.setVisibility(View.GONE);
 
 		holder.parentLayout.setOnClickListener(new View.OnClickListener() {
 			@Override public void onClick(View view) {
-				Log.d(TAG, "onClick: clicked on: " + mImageNames.get(position));
-
-				Toast.makeText(mContext, mImageNames.get(position), Toast.LENGTH_SHORT).show();
-
-				Intent intent = new Intent(mContext, ListDisplay.class);
-				intent.putExtra("subject", Subjects.values()[position]);
+				Intent intent = new Intent(mContext, WebViewActivity.class);
+				intent.putExtra("url", "https://www.google.com");
 				mContext.startActivity(intent);
 			}
 		});
@@ -64,7 +49,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 
 	@Override public int getItemCount() {
-		return mImageNames.size();
+		return subjectList.size();
 	}
 
 
