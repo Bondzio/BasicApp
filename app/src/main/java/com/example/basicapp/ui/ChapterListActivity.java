@@ -3,6 +3,7 @@ package com.example.basicapp.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.basicapp.R;
@@ -10,7 +11,7 @@ import com.example.basicapp.data.Subjects;
 import com.example.basicapp.adapter.ChapterListAdapter;
 import java.util.Arrays;
 
-public class ChapterListActivity extends Activity {
+public class ChapterListActivity extends AppCompatActivity {
 
 	private Subjects selectedSubject;
 

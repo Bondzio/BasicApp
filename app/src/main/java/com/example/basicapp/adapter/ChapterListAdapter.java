@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.basicapp.R;
 import com.example.basicapp.data.Subjects;
 import com.example.basicapp.ui.ChapterListActivity;
+import com.example.basicapp.ui.WebViewActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.util.List;
 
@@ -39,8 +40,8 @@ public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.
 
 		holder.parentLayout.setOnClickListener(new View.OnClickListener() {
 			@Override public void onClick(View view) {
-				Intent intent = new Intent(mContext, ChapterListActivity.class);
-				intent.putExtra("subject", Subjects.values()[position]);
+				Intent intent = new Intent(mContext, WebViewActivity.class);
+				intent.putExtra("url", "https://www.google.com");
 				mContext.startActivity(intent);
 			}
 		});
