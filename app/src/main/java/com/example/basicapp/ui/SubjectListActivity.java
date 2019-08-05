@@ -10,13 +10,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.basicapp.R;
 import com.example.basicapp.adapter.RecyclerViewAdapter;
 import com.example.basicapp.data.AppDatabase;
-import java.util.ArrayList;
 
 public class SubjectListActivity extends AppCompatActivity {
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_table_of_content);
+		setContentView(R.layout.activity_subjects);
 		initRecyclerView();
 	}
 

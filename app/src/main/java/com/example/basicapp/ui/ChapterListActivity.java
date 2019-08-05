@@ -1,12 +1,16 @@
-package com.example.basicapp;
+package com.example.basicapp.ui;
 
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import com.example.basicapp.R;
+import com.example.basicapp.data.Subjects;
+import com.example.basicapp.adapter.ChapterListAdapter;
+import java.util.Arrays;
 
-public class ListDisplay extends Activity {
+public class ChapterListActivity extends Activity {
 
 	private Subjects selectedSubject;
 
@@ -18,17 +22,19 @@ public class ListDisplay extends Activity {
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_gallery);
+		setContentView(R.layout.activity_subjects);
 
-		// This is how one can pass data between activities
-		//TODO You can read more about Serializable
 		selectedSubject = (Subjects) getIntent().getSerializableExtra("subject");
-
-		ArrayAdapter adapter = new ArrayAdapter<>(this, R.layout.activity_listview, displayList());
-		ListView listView = (ListView) findViewById(R.id.InformatikSubSections);
-		listView.setAdapter(adapter);
+		initRecyclerView();
 	}
 
+	private void initRecyclerView() {
+		RecyclerView recyclerView = findViewById(R.id.RecyclerView);
+		recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+		ChapterListAdapter adapter = new ChapterListAdapter(this, Arrays.asList(displayList()));
+		recyclerView.setAdapter(adapter);
+	}
 
 	private String[] displayList() {
 
@@ -49,6 +55,4 @@ public class ListDisplay extends Activity {
 
 		return new String[0];
 	}
-
-
 }

@@ -20,12 +20,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".GalleryActivity"></activity>
-        <activity android:name=".listitem" />
-        <activity android:name=".MathsTableOfContent" />
         <activity android:name=".ui.SubjectListActivity" />
         <activity android:name=".ui.HomeActivity" />
-        <activity android:name=".ListDisplay"/>
+        <activity android:name=".ui.ChapterListActivity" />
     </application>
 
 </manifest>

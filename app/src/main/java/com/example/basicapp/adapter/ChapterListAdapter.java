@@ -7,26 +7,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.bumptech.glide.Glide;
-import com.example.basicapp.ui.ChapterListActivity;
 import com.example.basicapp.R;
 import com.example.basicapp.data.Subjects;
-
-import com.example.basicapp.data.AppDatabase.Subject;
-
+import com.example.basicapp.ui.ChapterListActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.util.List;
 
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
+public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.ViewHolder> {
 
 	private Context mContext;
-	List<Subject> subjectList;
+	List<String> subjectList;
 
-	public RecyclerViewAdapter(Context context, List<Subject> subjectList) {
+	public ChapterListAdapter(Context context, List<String> subjectList) {
 		mContext = context;
 		this.subjectList = subjectList;
 	}
@@ -39,9 +33,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 	@Override public void onBindViewHolder(ViewHolder holder, final int position) {
 
-		Subject subject = subjectList.get(position);
-		holder.imageName.setText(subject.getName());
-		Glide.with(mContext).load(subject.getDrawableId()).into(holder.image);
+		String subject = subjectList.get(position);
+		holder.imageName.setText(subject);
+		holder.image.setVisibility(View.GONE);
 
 		holder.parentLayout.setOnClickListener(new View.OnClickListener() {
 			@Override public void onClick(View view) {
