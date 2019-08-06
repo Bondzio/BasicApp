@@ -34,7 +34,6 @@ public class ChapterListActivity extends AppCompatActivity {
 		RecyclerView recyclerView = findViewById(R.id.RecyclerView);
 		recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-		Log.i("ChapterListActivity", selectedSubject);
 		String[] chapterList = displayList();
 		String[] pathList = new String[chapterList.length];
 		for(int i=0; i < chapterList.length; i++) {

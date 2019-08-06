@@ -26,7 +26,6 @@ public class WordListActivity extends AppCompatActivity {
 
         selectedSubject = getIntent().getStringExtra("subject");
 
-        Log.i("WordListActivity", selectedSubject);
         initRecyclerView();
     }
 
@@ -48,8 +47,6 @@ public class WordListActivity extends AppCompatActivity {
 
         String subjectNumber = selectedSubject.substring(selectedSubject.lastIndexOf("/") + 1)
                                                 .substring(0,3);
-
-        Log.i("WordListActivity", subjectNumber);
 
         switch (subjectNumber) {
             case "1.1": return Words.SubSectionsMathematik11;
