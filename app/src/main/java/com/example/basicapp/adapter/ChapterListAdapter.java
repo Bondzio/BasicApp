@@ -2,6 +2,7 @@ package com.example.basicapp.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,10 +10,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.basicapp.R;
+import com.example.basicapp.data.Chapter;
 import com.example.basicapp.data.Subjects;
 import com.example.basicapp.ui.ChapterListActivity;
 import com.example.basicapp.ui.WebViewActivity;
 import com.example.basicapp.ui.WordListActivity;
+//import com.example.basicapp.ui.WordListActivity;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.util.List;
@@ -36,15 +39,17 @@ public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.
 
 	@Override public void onBindViewHolder(ViewHolder holder, final int position) {
 
-		String subject = subjectList.get(position);
-		holder.imageName.setText(subject);
+		final String subject = subjectList.get(position);
+
+		// do not show full path
+		holder.imageName.setText(subject.substring(subject.lastIndexOf("/") + 1));
 		holder.image.setVisibility(View.GONE);
 
 		holder.parentLayout.setOnClickListener(new View.OnClickListener() {
 			@Override public void onClick(View view) {
 				Intent intent = new Intent(mContext, WordListActivity.class);
-				//intent.putExtra("url", "https://www.google.com");
-				mContext.startActivity(intent);
+                intent.putExtra("subject", subject);
+                mContext.startActivity(intent);
 			}
 		});
 	}

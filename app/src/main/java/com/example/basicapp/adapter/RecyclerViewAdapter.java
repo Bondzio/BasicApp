@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.basicapp.data.AppDatabase;
 import com.example.basicapp.ui.ChapterListActivity;
 import com.example.basicapp.R;
 import com.example.basicapp.data.Subjects;
@@ -46,7 +47,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 		holder.parentLayout.setOnClickListener(new View.OnClickListener() {
 			@Override public void onClick(View view) {
 				Intent intent = new Intent(mContext, ChapterListActivity.class);
-				intent.putExtra("subject", Subjects.values()[position]);
+				intent.putExtra("subject", subjectList.get(position).getName());
 				mContext.startActivity(intent);
 			}
 		});
