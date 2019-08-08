@@ -1,6 +1,7 @@
 package com.example.basicapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,15 +12,17 @@ import android.widget.Toast;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.basicapp.R;
+import com.example.basicapp.data.WordPath;
+import com.example.basicapp.ui.WebViewActivity;
 
 import java.util.List;
 
 public class SearchListAdaper extends RecyclerView.Adapter<SearchListAdaper.ViewHolder>  {
 
     private Context mContext;
-    List<String> elementsList;
+    List<WordPath> elementsList;
 
-    public SearchListAdaper(Context context, List<String> elementsList) {
+    public SearchListAdaper(Context context, List<WordPath> elementsList) {
         mContext = context;
         this.elementsList = elementsList;
     }
@@ -34,19 +37,20 @@ public class SearchListAdaper extends RecyclerView.Adapter<SearchListAdaper.View
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
 
-        String word = elementsList.get(position);
+        WordPath wordPath = elementsList.get(position);
+
         TextView textView = holder.word;
-        textView.setText(word);
+        textView.setText(wordPath.word());
 
         textView = holder.wordPath;
-        textView.setText(word + "/" + word + "/" + word);
+        textView.setText(wordPath.path());
 
         holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
-                Toast.makeText(mContext, elementsList.get(position), Toast.LENGTH_SHORT).show();
-                //Intent intent = new Intent(mContext, ChapterListActivity.class);
-                //intent.putExtra("subject", subjectList.get(position).getName());
-                //mContext.startActivity(intent);
+                //Toast.makeText(mContext, elementsList.get(position).word(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(mContext, WebViewActivity.class);
+                intent.putExtra("url", elementsList.get(position).path());
+                mContext.startActivity(intent);
             }
         });
     }
