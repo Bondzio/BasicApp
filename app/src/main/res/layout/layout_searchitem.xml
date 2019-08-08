@@ -25,6 +25,6 @@
         android:text="1. Mathematik"
         android:layout_marginLeft="15dp"
         android:layout_marginStart="15dp"
-        android:paddingTop="5dp" />
+        android:paddingTop="3dp" />
 
 </LinearLayout>
