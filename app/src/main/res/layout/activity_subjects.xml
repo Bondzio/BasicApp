@@ -9,7 +9,7 @@
         android:id="@+id/RecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#CCCCCC"
      android:scrollbars="vertical" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!--- android:background="#aaf0d1" -->
