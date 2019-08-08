@@ -17,6 +17,6 @@ public class WordPath implements Comparable<WordPath> {
 
     @Override
     public int compareTo(WordPath wordPath) {
-        return word.compareTo(wordPath.word);
+        return (word + path).compareTo(wordPath.word + wordPath.path);
     }
 }
