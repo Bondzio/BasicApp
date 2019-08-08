@@ -18,13 +18,13 @@ import java.util.Arrays;
 
 public class WordListActivity extends AppCompatActivity {
 
-    private String selectedSubject;
+    private String selectedChapter;
 
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subjects);
 
-        selectedSubject = getIntent().getStringExtra("subject");
+        selectedChapter = getIntent().getStringExtra("chapter");
 
         initRecyclerView();
     }
@@ -33,22 +33,22 @@ public class WordListActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.RecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        String[] wordList = displayList();
+        String[] wordList = displayList(selectedChapter);
         String[] pathList = new String[wordList.length];
         for(int i=0; i < wordList.length; i++) {
-            pathList[i] = selectedSubject + "/" + wordList[i];
+            pathList[i] = selectedChapter + "/" + wordList[i];
         }
 
         WordListAdapter adapter = new WordListAdapter(this, Arrays.asList(pathList));
         recyclerView.setAdapter(adapter);
     }
 
-    private String[] displayList() {
+    public static String[] displayList(String selectedChapter) {
 
-        String subjectNumber = selectedSubject.substring(selectedSubject.lastIndexOf("/") + 1)
+        String chapterNumber = selectedChapter.substring(selectedChapter.lastIndexOf("/") + 1)
                                                 .substring(0,3);
 
-        switch (subjectNumber) {
+        switch (chapterNumber) {
             case "1.1": return Words.SubSectionsMathematik11;
             case "1.2": return Words.SubSectionsMathematik12;
             case "1.3": return Words.SubSectionsMathematik13;

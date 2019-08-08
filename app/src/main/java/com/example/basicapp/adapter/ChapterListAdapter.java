@@ -24,11 +24,11 @@ import java.util.List;
 public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.ViewHolder> {
 
 	private Context mContext;
-	List<String> subjectList;
+	List<String> chapterList;
 
-	public ChapterListAdapter(Context context, List<String> subjectList) {
+	public ChapterListAdapter(Context context, List<String> chapterList) {
 		mContext = context;
-		this.subjectList = subjectList;
+		this.chapterList = chapterList;
 	}
 
 	@Override public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -39,16 +39,16 @@ public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.
 
 	@Override public void onBindViewHolder(ViewHolder holder, final int position) {
 
-		final String subject = subjectList.get(position);
+		final String chapter = chapterList.get(position);
 
 		// do not show full path
-		holder.imageName.setText(subject.substring(subject.lastIndexOf("/") + 1));
+		holder.imageName.setText(chapter.substring(chapter.lastIndexOf("/") + 1));
 		holder.image.setVisibility(View.GONE);
 
 		holder.parentLayout.setOnClickListener(new View.OnClickListener() {
 			@Override public void onClick(View view) {
 				Intent intent = new Intent(mContext, WordListActivity.class);
-                intent.putExtra("subject", subject);
+                intent.putExtra("chapter", chapter);
                 mContext.startActivity(intent);
 			}
 		});
@@ -56,7 +56,7 @@ public class ChapterListAdapter extends RecyclerView.Adapter<ChapterListAdapter.
 
 
 	@Override public int getItemCount() {
-		return subjectList.size();
+		return chapterList.size();
 	}
 
 

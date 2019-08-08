@@ -34,7 +34,7 @@ public class ChapterListActivity extends AppCompatActivity {
 		RecyclerView recyclerView = findViewById(R.id.RecyclerView);
 		recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-		String[] chapterList = displayList();
+		String[] chapterList = displayList(selectedSubject);
 		String[] pathList = new String[chapterList.length];
 		for(int i=0; i < chapterList.length; i++) {
 			pathList[i] = selectedSubject + "/" + chapterList[i];
@@ -44,7 +44,7 @@ public class ChapterListActivity extends AppCompatActivity {
 		recyclerView.setAdapter(adapter);
 	}
 
-	private String[] displayList() {
+	public static String[] displayList(String selectedSubject) {
 
 		switch (selectedSubject) {
 			case "1. Mathematik":

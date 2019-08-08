@@ -2,4 +2,6 @@
     <string name="app_name">BasicApp</string>
     <string name="TextView">TextView</string>
     <string name="action_settings">Settings</string>
+    <string name="search_hint">Suche nach Wörtern</string>
+
 </resources>
