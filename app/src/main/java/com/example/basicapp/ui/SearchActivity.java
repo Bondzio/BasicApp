@@ -28,10 +28,7 @@ public class SearchActivity extends AppCompatActivity implements SearchView.OnQu
 
     private SearchView searchView;
 
-
-
-    private WordPath[] words; // = { "a", "b", "c", "d", "e", "f", "ab", "cd", "ef", "abc", "def" };
-
+    private WordPath[] words;
     private SearchListAdaper adapter;
     private List<WordPath> candidates;
 
@@ -111,24 +108,21 @@ public class SearchActivity extends AppCompatActivity implements SearchView.OnQu
         searchView.setQueryHint(getString(R.string.search_hint));
         searchView.setIconified(false);
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        //searchView.setSubmitButtonEnabled(true);
         searchView.setOnQueryTextListener(this);
         searchView.setOnCloseListener(this);
-
 
         return true;
     }
 
     @Override
     public boolean onQueryTextSubmit(String query) {
-        Log.i("OnQueryListener", "submit:" + query);
         return false;
     }
 
     @Override
     public boolean onQueryTextChange(String newText) {
-        Log.i("OnQueryListener",newText);
 
+        // search on lower case characters
         newText = newText.toLowerCase();
         candidates.clear();
 
@@ -147,8 +141,6 @@ public class SearchActivity extends AppCompatActivity implements SearchView.OnQu
                 }
             }
         }
-
-        Log.i("OnQueryListener", "candidates:" + candidates);
 
         adapter.notifyDataSetChanged();
 

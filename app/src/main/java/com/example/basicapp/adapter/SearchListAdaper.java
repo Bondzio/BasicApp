@@ -47,7 +47,6 @@ public class SearchListAdaper extends RecyclerView.Adapter<SearchListAdaper.View
 
         holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
-                //Toast.makeText(mContext, elementsList.get(position).word(), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(mContext, WebViewActivity.class);
                 intent.putExtra("url", elementsList.get(position).path());
                 mContext.startActivity(intent);
@@ -62,7 +61,6 @@ public class SearchListAdaper extends RecyclerView.Adapter<SearchListAdaper.View
 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-
 
         TextView word;
         TextView wordPath;
