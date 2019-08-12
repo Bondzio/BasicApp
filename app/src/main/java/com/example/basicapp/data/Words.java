@@ -35,10 +35,10 @@ public class Words {
     public static final String[] SubSectionsChemie11 = {"Chemie", "Chemische Reaktion", "Edukt", "Endotherm", "Exotherm",
             "Hauptgruppe", "Massenerhaltungssatz", "Nebengruppe", "Oxidation", "Periode", "Produkt"};
     public static final String[] SubSectionsChemie12 = {"Born-Oppenheimer-Näherung", "Element", "Schrödingergleichung", "Theoretische Chemie"};
-    public static final String[] SubSectionsChemie13 = {"Alkane", "Alkansaeure", "Aminogruppe", "Aminosaeure", "Carbonsaeure", "Citronensaeure",
-            "Organische Chemie", "Oxidation", "Protein", "Weinsaeure"};
+    public static final String[] SubSectionsChemie13 = {"Alkane", "Alkansäure", "Aminogruppe", "Aminosäure", "Carbonsäure", "Citronensäure",
+            "Organische Chemie", "Oxidation", "Protein", "Weinsäure"};
     public static final String[] SubSectionsChemie14 = {"Atom", "Dalton Modell", "Elektron", "Hadron", "Isotop",
-            "Molekuel", "Neutron", "Nuklid", "Physikalische Chemie", "Proton", "Teilchenmodell von Demokrit",};
+            "Molekül", "Neutron", "Nuklid", "Physikalische Chemie", "Proton", "Teilchenmodell von Demokrit",};
     public static final String[] SubSectionsChemie15 = {"Haber-Bosch-Verfahren", "Hochofenprozess", "Katalytisches Reforming",
             "Kontaktverfahren", "Stahlerzeugung", "Technische Chemie", "Technischer Kalkkreislauf", "Wasseraufbereitung"};
 
