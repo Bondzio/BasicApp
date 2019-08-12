@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Molekuel</h1>
+    <p>(Chemie, Physik)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Moleküle sind im weiten Sinn zwei- oder mehratomige Teilchen, die durch chemische Bindungen
+                        zusammengehalten werden und wenigstens so lange stabil sind, dass sie z. B. spektroskopisch
+                        beobachtet werden können. Es kann sich um neutrale Teilchen, aber auch um Radikale, Ionen
+                        oder auch ionische Addukte handeln. So sind z. B. viele Typen von interstellaren Molekülen
+                        unter irdischen Bedingungen nicht stabil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/7OfrwkiKfnw';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.lernhelfer.de/schuelerlexikon/chemie/artikel/molekuel';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

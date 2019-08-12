@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Neutron</h1>
+    <p>(Chemie, Physik)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Proton_quark_structure.svg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Das Neutron ist ein elektrisch neutrales Baryon mit dem Formelzeichen {\displaystyle \mathrm {n} } \mathrm{n}
+                    Es ist neben dem Proton Bestandteil fast aller Atomkerne und somit der uns vertrauten Materie.
+                        Neutron und Proton, gemeinsam Nukleonen genannt, gehören als Baryonen zu den Fermionen und den Hadronen.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/7kuUxo1xlw0';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.weltderphysik.de/gebiet/materie/analyse-von-materialien/neutronen-als-sonde/das-freie-neutron/';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

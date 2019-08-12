@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Bootstrap Example</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+<p>&nbsp;</p>
+
+<div class="jumbotron text-center">
+
+    <h1>Chemische Reaktion </h1>
+
+    <p>(Chemie)</p>
+
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-4">
+
+            <h3>Definition:</h3>
+
+            <p>Eine chemische Reaktion ist ein Vorgang, bei dem eine oder meist mehrere chemische Verbindungen
+                in andere umgewandelt werden und Energie freigesetzt oder aufgenommen wird.</p>
+
+        </div>
+
+
+        <div class="col-sm-4">
+
+            <h3>Beispiel:</h3>
+
+            <p>Reaktionen können in verschiedene Arten eingeteilt werden, die sich in der Art des übertragenen
+                Teilchens und den entstehenden Produkten unterscheiden. Beispiele sind: Oxidation, Reduktion,
+                Säure-Base-Reaktion, Fällung uvw.</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/66T22cSw-34';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.seilnacht.com/Lexikon/reaktion.htm';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>
+
+

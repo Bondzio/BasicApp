@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Atom</h1>
+    <p>(Chemie, Physik)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Helium_atom_QM_DE.svg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Atome sind Bausteine, aus denen alle festen, flüssigen oder gasförmigen Stoffe bestehen.
+                        Alle Materialeigenschaften dieser Stoffe sowie ihr Verhalten in chemischen Reaktionen
+                        werden durch die Eigenschaften und die räumliche Anordnung der Atome, aus denen sie
+                        aufgebaut sind, festgelegt. Jedes Atom gehört zu einem bestimmten chemischen Element
+                        und bildet dessen kleinste Einheit. Zurzeit sind 118 Elemente bekannt, von denen etwa
+                        90 auf der Erde natürlich vorkommen. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/7OfrwkiKfnw';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.lernhelfer.de/schuelerlexikon/physik/artikel/atom';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

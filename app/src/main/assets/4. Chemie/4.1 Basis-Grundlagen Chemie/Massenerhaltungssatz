@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Massenerhaltungssatz</h1>
+    <p>(Chemie)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Synonym:</h3>
+            <p>Lomonossow-Lavoisier-Gesetz</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Der Massenerhaltungssatz ist ein Erhaltungssatz in der Chemie. Er besagt, dass sich
+                bei chemischen Reaktionen die Gesamt-Masse der beteiligten Stoffe nicht nennenswert ändert.
+                Bei physikalischen Prozessen gilt dieser Satz nicht allgemein.</p>
+        </div>
+    </div>
+</div>
+
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/3OwRTGmMkfo';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.helles-koepfchen.de/?suche=massenerhaltungssatz';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+</body>
+</html>

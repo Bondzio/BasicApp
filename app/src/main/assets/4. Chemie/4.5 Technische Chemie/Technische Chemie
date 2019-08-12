@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Technische Chemie</h1>
+    <p>(Chemie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Die Technische Chemie beschäftigt sich mit der Überführung chemischer Reaktionen
+                        und Prozesse in technische Verfahren sowie der Optimierung bestehender Prozesse
+                        und Verfahren unter ökonomischen und ökologischen Gesichtspunkten.
+                        Die Schwerpunkte der Forschung und Lehre liegen dabei auf der Katalysator- und
+                        Verfahrensentwicklung, den mechanischen und thermischen Grundoperationen, der
+                        Prozesskunde sowie der Chemischen Reaktionstechnik.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/yl9de3HumzQ';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.chemie-studieren.de/fachrichtungen/technische-chemie.html';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Wasseraufbereitung</h1>
+    <p>(Chemie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Die Wasseraufbereitung ist die zielgerichtete Veränderung der Wasserqualität.
+                        Sie ist ein Teilgebiet der Verfahrenstechnik und umfasst im Wesentlichen zwei
+                        Gruppen der Behandlung:
+                        1. Entfernung von Stoffen aus dem Wasser (z. B. Reinigung, Entkeimung/Sterilisation,
+                        Enteisenung, Entmanganung, Enthärtung, Entsalzung);
+                        2. Ergänzung von Stoffen sowie Einstellen von Parametern des Wassers
+                        (z. B. Dosierung, Einstellung von pH-Wert, gelösten Ionen und der Leitfähigkeit).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/GHaZ2Je3XlI';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.chemie-schule.de/KnowHow/Wasseraufbereitung';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

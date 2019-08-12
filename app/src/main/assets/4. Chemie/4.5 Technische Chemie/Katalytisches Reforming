@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Katalytisches Reforming</h1>
+    <p>(Chemie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/KatReformer.png" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Katalytisches Reforming ist ein Raffinerieprozess, bei dem Alkane und Cycloalkane
+                        aus Naphtha (Rohbenzin) verschiedener Herkunft mit dem Ziel der Oktanzahlsteigerung
+                        in aromatische Verbindungen und verzweigte Alkane konvertiert werden. Das flüssige
+                        Hauptprodukt, das so genannte Reformat, besteht vorwiegend aus Benzol, Toluol,
+                        Xylolen, C9- und C10/C11-Aromaten sowie verzweigten und linearen Alkanverbindungen.
+                        Ein wichtiges Nebenprodukt ist Wasserstoff, welcher unter anderem in Entschwefelungs-
+                        und Hydrocracking-Prozessen benötigt wird. Durch Cracken werden die gasförmigen
+                        Kohlenwasserstoffe Methan, Ethan, Propan und Butan erzeugt.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/pGwDI1TwR44';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.chemie-schule.de/KnowHow/Katalytisches_Reforming';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

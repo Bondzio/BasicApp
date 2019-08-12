@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Isotop</h1>
+    <p>(Chemie, Physik)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Isotope_NiCuZn.svg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Als Isotope bezeichnet man Atomarten, deren Atomkerne gleich viele Protonen,
+                        aber unterschiedlich viele Neutronen enthalten. Sie haben die gleiche Ordnungszahl,
+                        stellen daher das gleiche Element dar, weisen aber verschiedene Massenzahlen auf;
+                        es gibt also Sauerstoffisotope, Eisenisotope usw. Die verschiedenen Isotope eines Elements
+                        verhalten sich chemisch fast identisch.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/0tKdDWpuZjY';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.lernhelfer.de/schuelerlexikon/chemie/artikel/isotope';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

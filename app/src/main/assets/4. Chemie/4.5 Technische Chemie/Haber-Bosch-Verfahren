@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Haber-Bosch-Verfahren</h1>
+    <p>(Chemie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Das Haber-Bosch-Verfahren ist ein großindustrielles chemisches Verfahren zur Synthese
+                        von Ammoniak. Es ist nach den deutschen Chemikern Fritz Haber und Carl Bosch benannt,
+                        die das Verfahren am Anfang des 20. Jahrhunderts entwickelten. Der zentrale Schritt
+                        des Verfahrens, die Ammoniaksynthese aus atmosphärischem Stickstoff und Wasserstoff,
+                        wird an einem eisenhaltigen Katalysator bei Drücken von etwa 150 bis 350 bar und
+                        Temperaturen von etwa 400 bis 500 °C durchgeführt. Als bedeutendes Chemieverfahren
+                        mit einem Produktionsausstoß von mehr als 150 Millionen Tonnen im Jahr 2017 deckt es
+                        mehr als 99 % der weltweiten Produktion an Ammoniak.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/qXp_Ut4awu0';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.seilnacht.com/Lexikon/HaberBo.htm';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

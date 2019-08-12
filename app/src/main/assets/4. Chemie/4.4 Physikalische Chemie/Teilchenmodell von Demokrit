@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Teilchenmodell von Demokrit</h1>
+    <p>(Chemie, Physik)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Democritus2.jpg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Wie sein Lehrer Leukipp – und in Abweichung von dessen Lehrer Parmenides – postulierte er in seiner
+                        Atomtheorie, dass die gesamte Natur aus kleinsten unsichtbaren, unteilbaren Einheiten (Elementarteilchen),
+                        den Atomen, zusammengesetzt sei. Demokrits zentrale Aussage dazu lautet (gemäß einem Dokument von
+                        Galenos aus dem 2. Jahrhundert):
+                        „Nur scheinbar hat ein Ding eine Farbe, nur scheinbar ist es süß oder bitter, in Wirklichkeit gibt
+                        es nur Atome im leeren Raum.“
+                        Jedes dieser Atome sollte fest und massiv, aber nicht gleich sein. Es gäbe unendlich viele Atome:
+                        runde, glatte, unregelmäßige und krumme. Wenn diese sich einander näherten, zusammenfielen oder
+                        miteinander verflöchten, dann erschienen die einen als Wasser, andere als Feuer, als Pflanze oder
+                        als Mensch.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/wT8ljhEMXvE';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.frustfrei-lernen.de/chemie/demokrit-atommodell.html';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

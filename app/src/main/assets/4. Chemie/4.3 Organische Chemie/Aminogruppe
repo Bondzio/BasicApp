@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Aminogruppe</h1>
+    <p>(Chemie, Biologie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Prim_sec_tert_Amines_General_Formulae.png" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Als Aminogruppe wird in der organischen Chemie die funktionelle Gruppe (–NH2) der primären
+                        Amine und der meisten Aminosäuren verstanden.[1] Genauer betrachtet werden Amine in drei
+                        Kategorien eingeteilt: primäre, sekundäre und tertiäre Amine.[2] Sie unterscheiden sich
+                        durch die Anzahl der Kohlenstoffe, die an den zentralen Stickstoff gebunden sind. Primäre
+                        Amine haben einen Kohlenstoff gebunden. Sekundäre zwei und tertiäre dementsprechend drei.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/Z4WkIrjsorM';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.chemie-schule.de/KnowHow/Aminogruppe';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

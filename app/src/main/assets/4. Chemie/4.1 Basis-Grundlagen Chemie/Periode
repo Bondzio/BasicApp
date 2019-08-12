@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Periode</h1>
+    <p>(Mathematik, Informatik, Biologie, Chemie, Physik)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Eine Periode kann je nach Anwendung unterschiedliche Bedeutungen haben.</p>
+        <h3>Verwendung in der Mathematik:</h3>
+        <p>In der Mathematik bezeichnet man als Periode eines Dezimalbruchs eine Ziffer oder
+            Ziffernfolge, die sich nach dem Komma immer wieder wiederholt. Alle rationalen
+            Zahlen, und nur diese, haben eine periodische Dezimalbruchentwicklung. (1/3 = 0,33333...)
+        </p>
+    </div>
+    <div class="col-sm-4">
+        <h3>Verwendung in der Informatik:</h3>
+        <p>In der Kryptologie, speziell bei den polyalphabetischen Substitutionsverfahren,
+            bezeichnet man als Periode die Anzahl der Zeichen, nach der sich das zur
+            Verschlüsselung verwendete Alphabet wiederholt.</p>
+    </div>
+        <div class="col-sm-4">
+            <h3>Verwendung in der Biologie:</h3>
+            <p>Die Menstruation oder Monatsblutung ist die periodisch wiederkehrende Blutung
+                aus der Gebärmutter einiger Tierarten und des Menschen mit Abstoßung der
+                Gebärmutterschleimhaut, die als Periode von durchschnittlich vier bis fünf
+                Tagen umgangssprachlich auch kurz Periode genannt wird.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Verwendung in der Chemie:</h3>
+            <p>Unter einer Periode des Periodensystems versteht man in der Chemie jede Zeile des
+                Periodensystems der Elemente. Die Perioden-Nummern 1 bis 7 entsprechen den
+                Hauptquantenzahlen, die oft noch angegebenen Perioden-Buchstaben K bis Q den
+                Schalen des Schalenmodells der Atomhülle.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Verwendung in der Physik:</h3>
+            <p>Bei einer nicht konstanten, aber sich regelmäßig wiederholenden physikalischen
+                Erscheinung ist die Periode das kleinste örtliche oder zeitliche Intervall,
+                nach dem sich der Vorgang wiederholt. Der Begriff Periode wird vorzugsweise
+                bei Schwingungen und Wellen angewendet.</p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>

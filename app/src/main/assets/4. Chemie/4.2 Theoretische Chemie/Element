@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Element</h1>
+    <p>(Mathematik, Informatik, Chemie)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Ein Element kann je nach Kontext unterschiedliche Bedeutungen haben.</p>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <h3>Verwendung in der Mathematik:</h3>
+        <p>Ein Element in der Mathematik ist immer im Rahmen der Mengenlehre oder Klassenlogik
+            zu verstehen. Die grundlegende Relation, wenn x ein Element ist und M eine Menge
+            oder Klasse ist, lautet:
+            „x ist Element von M“ oder mit Hilfe des Elementzeichens „x ∈ M“.</p>
+    </div>
+    <div class="col-sm-4">
+        <h3>Verwendung in der Informatik:</h3>
+        <p>Ein Element ist eine Struktureinheit (Knoten) in einem durch eine Auszeichnungssprache
+            (SGML, XML, HTML, XHTML, HTML5) repräsentierten Informationsbaum. Es besteht aus dem
+            Element-Bezeichner, den Element-Eigenschaften (Attributen) und dem Element-Inhalt.
+            Elemente werden durch Tags repräsentiert.</p>
+    </div>
+    <div class="col-sm-4">
+        <h3>Verwendung in der Chemie:</h3>
+        <p>Ein chemisches Element ist ein Reinstoff, der mit chemischen Methoden nicht mehr in andere Stoffe
+            zerlegt werden kann. Die Elemente sind die Grundstoffe der chemischen Reaktionen.
+            Die kleinste mögliche Menge eines Elements ist das Atom.</p>
+    </div>
+</div>
+
+</body>
+</html>

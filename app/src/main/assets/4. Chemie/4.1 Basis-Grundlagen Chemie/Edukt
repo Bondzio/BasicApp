@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Edukt</h1>
+    <p>(Chemie)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Synonym:</h3>
+            <p>Reaktant, Reagens, Ausgangsstoff</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Ein Edukt ist eine Substanz, die im Laufe einer chemischen Reaktion verbraucht wird.
+                Als Reaktanten können sowohl Elemente als auch chemische Verbindungen eingesetzt werden.
+                In der chemischen Industrie werden gezielt aus Reaktanten Produkte hergestellt.</p>
+        </div>
+    </div>
+</div>
+
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/66T22cSw-34';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.studyhelp.de/online-lernen/chemie/chemische-reaktion/';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Produkt</h1>
+    <p>(Mathematik, Chemie, Technik)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Ein Produkt kann je nach Anwendung unterschiedliche Bedeutungen haben.</p>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <h3>Verwendung in der Mathematik:</h3>
+        <p>Unter einem Produkt versteht man das Ergebnis einer Multiplikation sowie auch
+            die Darstellung der Multiplikation. Die verknüpften Elemente heißen Faktoren.</p>
+    </div>
+    <div class="col-sm-4">
+        <h3>Verwendung in der Chemie:</h3>
+        <p>Als Produkt bezeichnet man einen bei einer chemischen Reaktion entstehenden Stoff.
+            Einen Ausgangsstoff bezeichnet man hingegen als Reaktanden oder Reaktanten
+            (veraltet auch Edukt).</p>
+    </div>
+    <div class="col-sm-4">
+        <h3>Verwendung in der Technik:</h3>
+        <p>Ein Erzeugnis oder Produkt im Bereich der Technik ist ein auf technischem Wege
+            hergestelltes Gut. Je nachdem, ob es sich um Stückgut, Schüttgut oder Fließgut
+            handelt, unterscheidet man die Erzeugnisse der Fertigungstechnik und der
+            Verfahrenstechnik. In der Kunststofftechnik oder der Lebensmitteltechnologie
+            gehen beide Bereiche ineinander über.</p>
+    </div>
+</div>
+
+</body>
+</html>

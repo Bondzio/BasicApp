@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Schrödingergleichung</h1>
+    <p>(Mathematik, Chemie)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Erwin_Schrodinger_at_U_Vienna.JPG" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Die Schrödingergleichung ist eine grundlegende Gleichung der Quantenmechanik.
+                Sie beschreibt in Form einer partiellen Differentialgleichung die zeitliche
+                Veränderung des quantenmechanischen Zustands eines nichtrelativistischen Systems.
+                Die Gleichung wurde 1926 von Erwin Schrödinger (1887–1961) zuerst als Wellengleichung
+                aufgestellt[1] und bei ihrer ersten Anwendung erfolgreich zur Erklärung der Spektren
+                des Wasserstoffatoms genutzt.</p>
+        </div>
+    </div>
+</div>
+
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/A4Ip1p6o9TU';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://physikunterricht-online.de/jahrgang-12/schroedingergleichung/';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Born-Oppenheimer-Näherung</h1>
+    <p>(Mathematik, Chemie, Physik)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Synonym:</h3>
+            <p>Born-Oppenheimer-Approximation, Adiabatische Näherung</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Die Born-Oppenheimer-Näherung ist eine Näherung zur Vereinfachung der Schrödingergleichung
+                von Systemen aus mehreren Teilchen. Sie nutzt aus, dass schwere und leichte Teilchen in
+                einem System ihre Bewegungsrichtung auf sehr unterschiedlichen Zeitskalen ändern,
+                und dass die Bewegungsgleichungen der schnellen, leichten daher ohne Berücksichtigung
+                der Bewegung der langsamen, schweren sinnvoll gelöst werden kann.</p>
+        </div>
+    </div>
+</div>
+
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/UGB2psWD69s';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.spektrum.de/lexikon/physik/born-oppenheimer-naeherung/1876';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+</body>
+</html>

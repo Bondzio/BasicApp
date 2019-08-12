@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Alkane</h1>
+    <p>(Chemie, Biologie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/N-Alkanes_General_Formula_V2.svg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Synonym:</h3>
+                    <p>Grenzkohlenwasserstoffe, Paraffine</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Als Alkane bezeichnet man in der organischen Chemie die Stoffgruppe der gesättigten,
+                        acyclischen Kohlenwasserstoffe. Das heißt, ihre Vertreter bestehen nur aus den
+                        beiden Elementen Kohlenstoff (C) und Wasserstoff (H), weisen nur Einfachbindungen
+                        und keine Kohlenstoffringe auf. Damit sind sie eine Untergruppe der aliphatischen
+                        Kohlenwasserstoffe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/Asdx7h8nGuM';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.lernhelfer.de/schuelerlexikon/chemie/artikel/alkane';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Oxidation</h1>
+    <p>(Chemie)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Die Oxidation ist eine chemische Reaktion, bei der ein Atom, Ion oder Molekül Elektronen
+                abgibt. Seine Oxidationszahl wird dabei erhöht.[1] Ein anderer Stoff nimmt die Elektronen
+                auf und wird reduziert. Beide Reaktionen zusammen werden als Teilreaktionen einer
+                Redoxreaktion betrachtet.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Beispiel:</h3>
+            <p>Klassische Beispiele für die Oxidation durch Sauerstoff sind alle Arten der Verbrennung
+                von kohlenstoffhaltigen Stoffen unter Luftsauerstoff, beispielsweise Verbrennung von Kohle,
+                Holz, Erdgas, Flüssiggas, Benzin im Motor, Kerzen usw. Ausgehend von Kohle (reiner Kohlenstoff)
+                gibt jedes Kohlenstoff-Atom vier Elektronen an zwei Sauerstoff-Atome zur Ausbildung von zwei
+                Doppelbindungen ab. Es entsteht Kohlenstoffdioxid (CO2).
+                {\displaystyle \mathrm {C+O_{2}\longrightarrow CO_{2}} } {\mathrm  {C+O_{2}\longrightarrow CO_{2}}}</p>
+        </div>
+    </div>
+</div>
+
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/UH5krVf7LIk';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.seilnacht.com/Lexikon/Oxidat.htm';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+</body>
+</html>

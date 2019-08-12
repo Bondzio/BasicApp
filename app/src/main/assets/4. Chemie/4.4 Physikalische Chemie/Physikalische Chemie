@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Physikalische Chemie</h1>
+    <p>(Chemie, Physik)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Synonym:</h3>
+                    <p>Physikochemie</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Die physikalische Chemie ist neben der anorganischen und der organischen Chemie
+                        eines der „klassischen“ Teilgebiete der Chemie. Sie behandelt den Grenzbereich
+                        zwischen Physik und Chemie, insbesondere die Anwendung von Methoden der Physik
+                        auf Objekte der Chemie, weshalb manchmal auch der Begriff chemische Physik verwendet wird. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/Hk6TcpPAcgI';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.spektrum.de/lexikon/physik/physikalische-chemie/11242';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

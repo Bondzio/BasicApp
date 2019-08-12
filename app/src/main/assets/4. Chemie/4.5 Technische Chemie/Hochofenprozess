@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Hochofenprozess</h1>
+    <p>(Chemie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hochofentypen.png" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Um einen reibungslosen Dauerbetrieb während der sogenannten „Ofenreise“ von 10 bis 20 Jahren
+                        bis zum nächsten fälligen Instandhaltungstermin zu gewährleisten, benötigt eine Hochofenanlage
+                        neben dem Hochofen selbst noch weitere essenzielle Einrichtungen. Dazu gehört der Bunker für
+                        die Einsatzstoffe mit einem angeschlossenen Transportsystem zur kontinuierlichen Beschickung
+                        des Hochofens, mit der die Einsatzstoffe über den Gichtverschluss in selbigen eingefüllt werden.
+                        Über eine Heißwindringleitung wird die im Winderhitzer vorgewärmte Luft über Düsen in den Hochofen
+                        eingeblasen, welcher im Inneren feuerfest ausgekleidet und außen von einem komplexen Kühlsystem
+                        umgeben ist. Angeschlossen an den Hochofen ist eine speziell ausgebaute Abstich- bzw. Gießhalle,
+                        in der das entnommene Roheisen während der regelmäßig vorgenommenen Abstiche in entsprechende
+                        Pfannen- oder Torpedowaggons geleitet und zur Weiterverarbeitung abtransportiert werden kann.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/3T5kQfGVb9M';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.seilnacht.com/Lexikon/hochofen.html';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

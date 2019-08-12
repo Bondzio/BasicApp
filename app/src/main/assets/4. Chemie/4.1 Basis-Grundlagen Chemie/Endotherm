@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Endotherm</h1>
+    <p>(Chemie)</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Enthalpy_profile_endothermic_reaction-DE.svg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <h3>Definition:</h3>
+            <p>Als endotherm werden in der Chemie Reaktionen bezeichnet, bei denen Energie zugeführt werden
+                muss. Die Standardenthalpiedifferenz {\displaystyle \Delta H^{\circ }} {\displaystyle \Delta H^{\circ }}
+                ist dabei positiv. Die Enthalpie H ist die Summe aus der Inneren Energie eines Systems und
+                dem Produkt aus Druck und Volumen. Sie ist der Wärmegehalt eines Systems bei konstantem Druck.</p>
+        </div>
+    </div>
+</div>
+
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/GAGOKgofm7g';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.frustfrei-lernen.de/chemie/endotherme-reaktion-chemie.html';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+</body>
+</html>

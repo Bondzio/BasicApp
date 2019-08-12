@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Carbonsaeure</h1>
+    <p>(Chemie, Biologie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Carboxylic_Acid_General_Structure_V.1.svg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Synonym:</h3>
+                    <p>Karbonsäuren</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Carbonsäuren,[1] auch Karbonsäuren,[2] sind organische Verbindungen, die eine
+                        oder mehrere Carboxygruppen (–COOH) tragen und damit einen mehr oder weniger
+                        ausgeprägten aciden Charakter haben. Die Salze von Carbonsäuren werden Carboxylate
+                        genannt. Verbindungen, in denen die OH-Gruppe der Carboxygruppe durch eine andere
+                        Gruppe, z. B. -OR, -NH2 oder -Cl ersetzt ist, werden Carbonsäurederivate genannt.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Beispiele::</h3>
+                    <p>Essigsäure, Acrylsäure, Oxalsäure, Carbonsäure etc.  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/ZHYZs_Bc12g';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://seilnacht.com/Lexikon/carbons.html';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Dalton Modell</h1>
+    <p>(Chemie, Physik)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>John Dalton stellte das erste wissenschaftlich fundierte Atommodell auf, das sich in vier Kernaussagen zusammenfassen lässt:
+                        1. Jeder Stoff besteht aus kleinsten, nicht weiter teilbaren kugelförmigen Teilchen, den Atomen.
+                        2. Alle Atome eines bestimmten Elements haben das gleiche Volumen und die gleiche Masse. Die Atome unterschiedlicher Elemente unterscheiden sich in ihrem Volumen und in ihrer Masse.
+                        3. Atome sind unzerstörbar. Sie können durch chemische Reaktionen weder vernichtet noch erzeugt werden.
+                        4. Bei chemischen Reaktionen werden die Atome der Ausgangsstoffe nur neu angeordnet und in bestimmten Anzahlverhältnissen miteinander verbunden.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/kD_ClTRcQRQ';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.frustfrei-lernen.de/chemie/dalton-atommodell.html';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>

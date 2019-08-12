@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<p>&nbsp;</p>
+<div class="jumbotron text-center">
+    <h1>Technischer Kalkkreislauf</h1>
+    <p>(Chemie)</p>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Kalkkreislauf.svg" alt="My Image" class="img-fluid" >
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <div class="col-sm-4">
+                    <h3>Definition:</h3>
+                    <p>Der technische Kalkkreislauf ist die technische Umwandlung von natürlichen Kalkstein
+                    in drei Schritten.
+                        1. Brennen: Zuerst wird Calciumcarbonat, der Hauptbestandteil des Kalksteins, stark
+                        erhitzt (gebrannt), dabei entweicht Kohlenstoffdioxid und es entsteht Calciumoxid,
+                        Branntkalk.
+                        2. Löschen: Versetzt man Branntkalk mit Wasser, bildet sich Calciumhydroxid, Löschkalk.
+                        3. Abbinden(Carbonatisierung): Löschkalk reagiert durch Wasserabgabe und
+                        Kohlenstoffdioxidaufnahme wieder zurück zu Calciumcarbonat, also Kalkstein.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style = "position:relative; left:100px; top:20px; right:40px; bottom:20px;">
+    <button onclick="window.location.href = 'https://www.youtube.com/embed/Zb9R_uBqP24';">
+        <span>Video mit Beispiel</span>
+    </button>
+    <button onclick="window.location.href = 'https://www.chemie-schule.de/KnowHow/Technischer_Kalkkreislauf';">
+        <span>Weiteres Material</span>
+    </button>
+</div>
+
+
+</body>
+</html>
