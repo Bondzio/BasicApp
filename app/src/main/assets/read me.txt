@@ -1,6 +1,0 @@
-Die html-Dateien dürfen keine Sonderzeichen (ä,ö,ü,ß) enthalten.
-Stattdessen müssen die Sonderzeichen ersetz werden mit:
-ä = ae
-ö = oe
-ü = ue
-ß = ss
